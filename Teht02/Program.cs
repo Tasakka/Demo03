@@ -10,6 +10,14 @@ namespace Teht02
     {
         static void Main(string[] args)
         {
+            //create the instance of Washing_machine class
+            Washing_machine machine = new Washing_machine();
+            machine.PrintData();
+            machine.Temperature = 30;
+            machine.IsOn = true;
+            machine.Sling = false;
+            machine.Mode = "Cotton";
+            machine.PrintData();
         }
     }
 }
