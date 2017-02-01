@@ -11,23 +11,46 @@ namespace Teht05
         public string Numero { get; set; }
         public string Nimi { get; set; }
         public string Luokka { get; set; }
-        public int Ikä { get; set; }
-        public void Name(string name)
+        public string Ikä { get; set; }
+        public string opiskelija1()
         {
-            Nimi = name;
+            Nimi = "Juuso";
+            Numero = "K3236";
+            Luokka = "TTV15S1";
+            Ikä = "20";
+            return String.Format(Nimi + ", " + Numero + ", " + Ikä + ", " + Luokka);
         }
-        public void Number(string number)
+        public string opiskelija2()
         {
-            Numero = number;
+            Nimi = "Pertti";
+            Numero = "K3345";
+            Luokka = "TTV12S4";
+            Ikä = "25";
+            return String.Format(Nimi + ", " + Numero + ", " + Ikä + ", " + Luokka);
         }
-        public void Age(string age)
+        public string opiskelija3()
         {
-            Ikä = age;
+            Nimi = "Isto";
+            Numero = "K1234";
+            Luokka = "TTV43S1";
+            Ikä = "34";
+            return String.Format(Nimi + ", " + Numero + ", " + Ikä + ", " + Luokka);
         }
-        public void Class(string luokka)
+        public string opiskelija4()
         {
-            Luokka = luokka;
-        } 
-
+            Nimi = "Martti";
+            Numero = "S27893";
+            Luokka = "ASD123";
+            Ikä = "19";
+            return String.Format(Nimi + ", " + Numero + ", " + Ikä + ", " + Luokka);
+        }
+        public string opiskelija5()
+        {
+            Nimi = "Kaapo";
+            Numero = "Y765";
+            Luokka = "TTV76S23";
+            Ikä = "99";
+            return String.Format(Nimi + ", " + Numero + ", " + Ikä + ", " + Luokka);
+        }
     }
 }

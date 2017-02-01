@@ -22,10 +22,9 @@ namespace Teht04
         }
         public void ToString(string value)
         {
-            string Speed = .ToString();
-
             value = Name + Speed + Tyres;
-            Console.WriteLine(value);
+            string str = Convert.ToString(value);
+            Console.WriteLine(str);
         }
     }
 }
