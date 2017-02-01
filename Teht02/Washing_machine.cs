@@ -24,6 +24,7 @@ namespace Teht02
             Console.WriteLine("Is the slinging used: " + Sling);
             Console.WriteLine("What is temperature: " + Temperature);
             Console.WriteLine("What mode is the machine running on: " + Mode);
+            Console.WriteLine("How bright is the picture: " + value)
         }
     }
 }
