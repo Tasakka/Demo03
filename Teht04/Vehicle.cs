@@ -20,10 +20,9 @@ namespace Teht04
             Console.WriteLine("Speed: " + Speed);
             Console.WriteLine("Tyres: " + Tyres);
         }
-        public void ToString(string value)
+        public void ToString()
         {
-            value = Name + Speed + Tyres;
-            string str = Convert.ToString(value);
+            string str = Convert.ToString(Name + ", " + Speed + ", " + Tyres);
             Console.WriteLine(str);
         }
     }
