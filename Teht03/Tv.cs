@@ -9,7 +9,7 @@ namespace Teht03
     class Tv
     {
         //properties
-        public bool IsOn{get; set; }
+        public bool IsOn { get; set; }
         public int Channel { get; set; }
         public string Color { get; set; }
         public int Size { get; set; }
